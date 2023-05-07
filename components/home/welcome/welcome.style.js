@@ -37,7 +37,11 @@ const styles = StyleSheet.create({
     fontFamily: FONT.regular,
     width: "100%",
     height: "100%",
+    backgroundColor: "#DCDCDC",
+    //shadowColor:"#CC6600",
+    borderRadius: 10,
     paddingHorizontal: SIZES.medium,
+    
   },
   searchBtn: {
     width: 50,
@@ -46,6 +50,7 @@ const styles = StyleSheet.create({
     borderRadius: SIZES.medium,
     justifyContent: "center",
     alignItems: "center",
+    
   },
   searchBtnImage: {
     width: "50%",

@@ -22,8 +22,20 @@ const Welcome = () => {
 
       <View style={styles.searchContainer}>
         <View style={styles.searchWrapper}>
-          <TextInput style={styles.searchInput}></TextInput>
+          <TextInput
+            style={styles.searchInput}
+            value=""
+            onChange={() => {}}
+            placeholder="What are looking for"
+          />
         </View>
+       <TouchableOpacity style={styles.searchBtn}>
+        <Image
+        source={icons.search}
+        resizeMode="contain"
+        style={styles.searchBtnImage}
+        />
+       </TouchableOpacity>
       </View>
     </View>
   );
