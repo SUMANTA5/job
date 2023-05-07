@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     fontFamily: FONT.regular,
     width: "100%",
     height: "100%",
-    backgroundColor: "#ffff",
+    backgroundColor: "#E0E0E0",
     //shadowColor:"#CC6600",
     borderRadius: 10,
     paddingHorizontal: SIZES.medium,
