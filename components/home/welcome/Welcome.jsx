@@ -29,13 +29,13 @@ const Welcome = () => {
             placeholder="What are looking for"
           />
         </View>
-       <TouchableOpacity style={styles.searchBtn}>
-        <Image
-        source={icons.search}
-        resizeMode="contain"
-        style={styles.searchBtnImage}
-        />
-       </TouchableOpacity>
+        <TouchableOpacity style={styles.searchBtn}>
+          <Image
+            source={icons.search}
+            resizeMode="contain"
+            style={styles.searchBtnImage}
+          />
+        </TouchableOpacity>
       </View>
     </View>
   );

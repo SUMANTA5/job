@@ -41,7 +41,6 @@ const styles = StyleSheet.create({
     //shadowColor:"#CC6600",
     borderRadius: 10,
     paddingHorizontal: SIZES.medium,
-    
   },
   searchBtn: {
     width: 50,
@@ -50,7 +49,6 @@ const styles = StyleSheet.create({
     borderRadius: SIZES.medium,
     justifyContent: "center",
     alignItems: "center",
-    
   },
   searchBtnImage: {
     width: "50%",
